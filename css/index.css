@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(234, 230, 230); 
+}
+.bgrow{
+    background-color: grey;
+}
+.god1{
+    display: flex;
+    align-items: center;
+}
+.logo2{
+   margin-top: 20%;   
+}
+.card-g .card-img-top{
+    border: none;
+    margin-top: 10%;
+}
+.box-2 {
+    color: white;
+    margin-top: -15px; 
+}
+.blender{
+    position: relative;
+    padding: 100px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+   
+}
+.blender p{
+    position: absolute;
+    top: 0;
+    color: black;  
+    background-color: rgb(255, 255, 255);
+    /* background-color: black; */
+    width: 100%;
+    height: 70vh;
+    mix-blend-mode: screen;
+    text-align: center;
+    font-size: 17em;
+    font-weight: 1000;
+    font-family: cursive;
+}
+
+.logo-nav{
+    background: transparent;
+    width: 200px;
+    height: 50px;
+}
+.cardmain
+{
+    background: rgb(234, 230, 230);
+}
+.cardmain .card{
+    box-shadow: 3px 3px 10px 10px rgba(134, 124, 124, 0.718);
+}
+
+.cont li{
+    background-color: rgb(2, 36, 65);
+    box-shadow: 3px 13px 10px 10px rgba(0, 0, 0, 0.245);
+    
+    
+}
+.cont{
+    background: rgb(234, 230, 230);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.cont li h5
+{
+    padding-top: 5px;
+}
+.cardmain .card-title
+{
+     color: rgb(60, 255, 0);
+}
+.cont h5
+{
+    color: rgb(0, 179, 255);
+}
+
+.icon i{
+    font-size: 2em;
+    padding: 1em;
+}
+.icon{
+    margin-top: 20%;
+}
+.community{
+    background-color: rgb(237, 247, 255);
+    box-shadow: 3px 13px 10px 10px rgba(0, 0, 0, 0.245);
+}
+.comm
+{
+    background: rgb(234, 230, 230);
+}
+.imgg
+{
+    width: 100%;
+    
+    padding-top: 5%;
+}
+.footer p
+{
+   text-align: center; 
+   padding: 20px 0px 0px 0px;
+}
+
+@media screen and ( max-width: 100px)
+{
+    .blender p
+    {
+        width: 100%;
+        font-size: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10%;
+    }
+}
+@media screen and ( max-width: 490px)
+{
+    .blender p
+    {
+        width: 100%;
+        font-size: 7rem;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 13%;
+    }
+    .blender 
+    {
+        height: 50vh;
+    }
+}
+@media screen and ( max-width: 490px){
+    .paragraph{
+        display:none;
+    }
+}
+@media screen and ( max-width: 490px)
+{
+    .blender p
+    {
+        width: 100%;
+        font-size: 5rem;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10%;
+    }
+    .blender 
+    {
+        height: 40vh;
+    }
+}

@@ -1,0 +1,71 @@
+
+.pop {
+   
+    position: fixed;
+    margin-top: 150px;
+    width: 40px;
+    z-index: 999;
+    box-shadow: -2px 1px 10px 7px rgba(0, 0, 0, 0.463); 
+}
+
+.pop a {
+    display: block;
+    height: 40px;
+    padding: 10px 10px;
+   color: rgb(255, 255, 255);
+    width: 40px;
+    position: relative;
+    transition: all 0.6s;
+    /* border-radius: 24px; */
+}
+
+
+.pop span {
+    display: inline-block;
+    width: 1px;
+    padding: 0px;
+    position: absolute;
+    top: 7px;
+    left: 45px;
+    color: rgb(255, 255, 255);
+    /* text-transform: uppercase; */
+    display: none;
+    
+}
+.pop a i{
+    color: white;
+}
+.pop a:nth-child(1)
+{
+    background-color: green;
+   
+    
+}  
+.pop a:nth-child(2)
+{
+   background-color: rgb(0, 145, 255); 
+} 
+.pop a:nth-child(3)
+{
+    background-color: rgb(18, 67, 137);
+} 
+.pop a:nth-child(4)
+{
+    background-color: rgb(24, 42, 86);
+} 
+.pop a:nth-child(5)
+{
+    background-color: red;
+} 
+ .pop a:hover{
+    width:150px;
+    border-radius: 20px;
+    
+}
+.pop a:hover span
+{
+    display: block;
+}
+
+
+    
